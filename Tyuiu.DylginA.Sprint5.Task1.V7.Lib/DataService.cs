@@ -17,7 +17,7 @@ namespace Tyuiu.DylginA.Sprint5.Task1.V7.Lib
             string strY;
             for(int x = startValue; x<= stopValue; x++)
             {
-                fx = ((Math.Sin(x)) / (x + 1.2)) - Math.Sin(x) * 2 - (2 * x); ;
+                fx = Math.Round(((Math.Sin(x)) / (x + 1.2)) - Math.Sin(x) * 2 - (2 * x),2);
                 strY = Convert.ToString(fx);
                  if (x != stopValue)
                  {
