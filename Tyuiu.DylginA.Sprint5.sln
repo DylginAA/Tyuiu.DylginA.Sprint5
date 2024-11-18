@@ -19,9 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{C230BB55
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task7", "Task7", "{56FA32C4-F4DF-4F65-B79C-2E1766433B31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DylginA.Sprint5.Task0.V25", "Tyuyu.DylginA.Sprint5.Task0.V25\Tyuiu.DylginA.Sprint5.Task0.V25.csproj", "{1DD41ABB-8B28-4DAA-9307-E3C3DC9EA8D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DylginA.Sprint5.Task0.V25", "Tyuyu.DylginA.Sprint5.Task0.V25\Tyuiu.DylginA.Sprint5.Task0.V25.csproj", "{1DD41ABB-8B28-4DAA-9307-E3C3DC9EA8D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DylginA.Sprint5.Task0.V25.Lib", "Tyuiu.DylginA.Sprint5.Task0.V25.Lib\Tyuiu.DylginA.Sprint5.Task0.V25.Lib.csproj", "{445B0846-FC2B-41BF-A6D3-3272321F3907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.DylginA.Sprint5.Task0.V25.Lib", "Tyuiu.DylginA.Sprint5.Task0.V25.Lib\Tyuiu.DylginA.Sprint5.Task0.V25.Lib.csproj", "{445B0846-FC2B-41BF-A6D3-3272321F3907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.DylginA.Sprint5.Task0.V25.Test", "Tyuiu.DylginA.Sprint5.Task0.V25.Test\Tyuiu.DylginA.Sprint5.Task0.V25.Test.csproj", "{4865FD7B-39B0-437E-A044-E2994E7BEBB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{445B0846-FC2B-41BF-A6D3-3272321F3907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445B0846-FC2B-41BF-A6D3-3272321F3907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{445B0846-FC2B-41BF-A6D3-3272321F3907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4865FD7B-39B0-437E-A044-E2994E7BEBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4865FD7B-39B0-437E-A044-E2994E7BEBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4865FD7B-39B0-437E-A044-E2994E7BEBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4865FD7B-39B0-437E-A044-E2994E7BEBB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1DD41ABB-8B28-4DAA-9307-E3C3DC9EA8D4} = {D23DD6DD-E9B7-4961-B9AF-1B3CE6BAFD14}
 		{445B0846-FC2B-41BF-A6D3-3272321F3907} = {D23DD6DD-E9B7-4961-B9AF-1B3CE6BAFD14}
+		{4865FD7B-39B0-437E-A044-E2994E7BEBB9} = {D23DD6DD-E9B7-4961-B9AF-1B3CE6BAFD14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E182499-32EE-4D78-9594-3B8EAB281FFB}
