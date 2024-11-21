@@ -6,8 +6,7 @@ namespace Tyuiu.DylginA.Sprint5.Task2.V25.Lib
     {
         public string SaveToFileTextData(int[,] matrix)
         {
-            string directory = Path.Combine("D:", "Prog");
-            string path = Path.Combine(directory, "OutPutFileTask2.csv");
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask2.csv");
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
 
